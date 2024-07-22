@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebSite || nCoder-Protfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background-color: #121212;
+        color: #ffffff;
+      }
+      .portfolio-item img {
+        border: 2px solid #ffffff;
+      }
+      .portfolio-item h3 {
+        color: #ffffff;
+      }
+      .portfolio-item p {
+        color: #b0b0b0;
+      }
+    </style>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">nCoder</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Options
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="Protfolio.html">My Protfolio</a></li>
+                <li>
+                  <a class="dropdown-item active" href="My links.html"
+                    >My Links</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="contact.html">Log in</a></li>
+                <li><a class="dropdown-item" href="contact.html">Sign up</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Portfolio Section -->
+    <div class="container mt-5">
+      <h2 class="text-center">My Work</h2>
+      <div class="row mt-4">
+        <div class="col-md-4 portfolio-item">
+          <div class="card bg-dark text-white">
+            <img
+              src="https://via.placeholder.com/350x250"
+              class="card-img-top"
+              alt="Project 1"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Project 1</h3>
+              <p class="card-text">A description of the first project.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 portfolio-item">
+          <div class="card bg-dark text-white">
+            <img
+              src="https://via.placeholder.com/350x250"
+              class="card-img-top"
+              alt="Project 2"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Project 2</h3>
+              <p class="card-text">A description of the second project.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 portfolio-item">
+          <div class="card bg-dark text-white">
+            <img
+              src="https://via.placeholder.com/350x250"
+              class="card-img-top"
+              alt="Project 3"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Project 3</h3>
+              <p class="card-text">A description of the third project.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
